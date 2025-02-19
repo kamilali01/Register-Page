@@ -28,7 +28,6 @@
     padding: 20px;
     text-align: center;
     font-size: 1.5rem;
-    border: 1px solid #000;
 }
 .part-left{
     background-image: url('./img/Eivor.jpg');
@@ -141,5 +140,9 @@ form p{
 }
 .form:nth-child(2){
     gap: 10px;
+}
+.part-right{
+    background-color: rgb(26, 29, 30);
+    color: white;
 }
 }
