@@ -150,7 +150,27 @@ form p{
 .first-name{
     margin-bottom: 28px;
 }
+.login-part-right{
+    background-color: rgb(26, 29, 30);
+    padding-top: 0;
+    padding: 0;
+}
+
 }
 .login:hover{
     color: red;
+}
+.login-main{
+    background-image: url(./img/Eivor.jpg);
+}
+.login-part-left{
+    background-image: url(./img/odin-9427886_1280.png);
+}
+.login-part-right{
+    background-color: rgb(26, 29, 30);
+}
+@media (min-width: 600px) {
+    .login-part-right{
+        padding-top: 15rem;
+    }
 }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main login-main">
+        <div class="container login-container">
+            <article class="part part-left login-part-left">
+                <div class="title">
+                    <img class="logo" src="./img/odin-logo.png" alt="">
+                     <h1 class="odin">ODIN</h1>
+                </div>
+            </article>
+            <article class="part part-right login-part-right"><form action="/submit-registration" method="POST">
+                    <p>Let's do this!</p>
+                    <div class="form-group">
+                        <label for="email">EMAIL</label>
+                        <input required type="email" placeholder="example@mail.com">
+                        <br></br>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">PASSWORD</label>
+                        <input required minlength="12" type="password" name="password" id="password" placeholder="Enter your password">
+                        <br></br>
+                    </div>
+                    <input type="submit" value="Login">
+                </form>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
